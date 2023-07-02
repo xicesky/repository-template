@@ -1,0 +1,68 @@
+= Repository template
+:experimental:
+:source-highlighter: rouge
+:source-language: shell
+:icons: font
+:toc: true
+:sectanchors:
+:star: *
+Markus Dangl <663399+xicesky@users.noreply.github.com>
+
+== What is this?
+
+Just an "empty initial repository" that i use as a template.
+It already contains a few files that i use as a base in most of my projects.
+The following sections are just dummies.
+
+== Overview
+
+Describe what it is all about.
+
+== Missing features and bugs
+
+* TODO Bug number 1
+* TODO Bug number 2
+
+== TODO
+
+* Edit all the TODOs in this file
+* TODO number 1
+* TODO number 2
+
+== Installing
+
+TODO
+
+== Basic usage
+
+[source,console]
+----
+Start using the following command:
+$ TODO
+
+----
+
+== Development
+
+Requirements:
+
+* https://pre-commit.com/[pre-commit] (optional), install e.g. using `pip install pre-commit`
+
+[source,console]
+----
+$ git clone git@github.com:xicesky/TODO.git
+$ cd TODO
+$ pre-commit install
+
+Run some debug stuff
+$ TODO
+----
+
+=== Maintenace
+
+----
+Also, update pre-commit hooks from time to time:
+$ pre-commit autoupdate
+$ pre-commit run --all-files
+$ git add -A && git commit -m "Update pre-commit hooks"
+----
